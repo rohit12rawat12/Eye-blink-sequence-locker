@@ -72,7 +72,6 @@ while True:
 				userInput += 'L'
 				print(userInput)
 				L_time1 = time.time()
-				#cv2.putText(frame, "ALERT", (150, 150), font, 4, (0, 0, 255), 3)
 
 		if right_eye_ratio < 4.5:
 			R_time1 = time.time()
@@ -82,7 +81,6 @@ while True:
 				userInput += 'R'
 				print(userInput)
 				R_time1 = time.time()
-				#cv2.putText(frame, "ALERT", (150, 150), font, 4, (0, 0, 255), 3)
 
 	cv2.imshow("frame", frame)
 	key = cv2.waitKey(1)
